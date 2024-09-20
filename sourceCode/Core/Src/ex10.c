@@ -59,9 +59,10 @@ void runclock(){
 	    if (minute == 60) {
 	        minute = 0;
 	        hour++;
+	        clearNumberOnClock(hour-1);
 	        settime(hour, minute, second);
 	    }
-    	settime(hour, minute, second);
+	    settime(hour, minute, second);
     	second++;
 }
 

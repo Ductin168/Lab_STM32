@@ -92,7 +92,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  settime(0,0,0);
+  settime(3,59,46);
   while (1)
   {
 	  runclock();
