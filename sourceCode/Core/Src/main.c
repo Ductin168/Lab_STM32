@@ -23,10 +23,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "ex6.h"
-#include "ex7.h"
-#include "ex8.h"
-#include "ex9.h"
 #include "ex10.h"
 /* USER CODE END Includes */
 
