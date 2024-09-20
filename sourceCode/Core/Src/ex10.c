@@ -59,6 +59,7 @@ void runclock(){
 	    if (minute == 60) {
 	        minute = 0;
 	        hour++;
+	        clearNumberOnClock(hour-1);
 	    }
 	    if((hour == 12||hour ==24) && minute/5 != 11 && second/5 != 11){
 	    	hour = 0;
