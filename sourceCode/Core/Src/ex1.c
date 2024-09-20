@@ -9,8 +9,8 @@ int LED_STT= LED_ON;
 int count = 2;
 
 void init_ex1(){
-	HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, SET);
-	HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, SET);
+	HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, RESET);
+	HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, RESET);
 }
 
 void ex1_run(){
